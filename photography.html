@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andres Court</title>
+
+    <!-- Google Fonts Lora & Ubuntu -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0b0464ef7a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation start -->
+    <header>
+      <nav class="container">
+        <div class="site-title">
+          <h1>Andr&eacute;s Court</h1>
+          <p class="subtitle">Fullstack developer</p>
+        </div>
+        <ul class="menu-bar">
+          <li class="nav-item">
+            <a class="nav-item-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-link" href="about-me.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-link selected" href="photography.html"
+              >Photography</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Navigation end -->
+    <div class="container row">
+      <main class="col-3">
+        <div class="carousel">
+          <div id="js-carousel"></div>
+
+          <div class="carousel-actions">
+            <button id="carousel-button-prev" aria-label="Previous Slidex">
+              <span class="fa-solid fa-chevron-left"></span>
+            </button>
+            <button id="carousel-button-next" aria-label="Next Slide">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </main>
+      <aside class="col-1">
+        <div class="widget">
+          <h3 class="widget-title">About Me</h3>
+          <p class="widget-content">Get to know more about me..</p>
+          <p class="read-more"><a href="about-me.html">More</a></p>
+        </div>
+      </aside>
+    </div>
+    <footer>
+      <div class="container">Copyright &copy; Andr&eacute;s Court 2022</div>
+    </footer>
+
+    <script src="./js/carousel.js"></script>
+  </body>
+</html>
