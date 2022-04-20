@@ -1,7 +1,11 @@
+:root {
+  --brownish: #7f5a05;
+}
+
 body {
   margin: 0;
   font-family: "Ubuntu", sans-serif;
-  color: #7f5a05;
+  color: var(--brownish);
 }
 
 img {
@@ -23,7 +27,7 @@ img {
 
 footer {
   font-size: 0.6rem;
-  background: #7f5a05;
+  background: 7f5a05;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.7);
   padding: 2em;
@@ -90,7 +94,7 @@ nav {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  color: #7f5a05;
+  color: var(--brownish);
 }
 
 .nav-item-link:hover,
@@ -99,7 +103,7 @@ nav {
 }
 
 .selected {
-  border-bottom: #7f5a05 solid 1px;
+  border-bottom: var(--brownish) solid 1px;
 }
 
 .subtitle {
@@ -243,6 +247,17 @@ aside {
 
 #carousel-button-next {
   margin-right: 1rem;
+}
+
+.offsite-link {
+  color: var(--brownish);
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
+li {
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
 }
 
 /*
